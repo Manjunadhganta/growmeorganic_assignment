@@ -143,7 +143,7 @@ export default function ArtworksTable() {
 
   return (
     <div className="card bg-white shadow-md rounded-lg p-6 m-4">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800">Artworks Table</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-gray-800">Manjunadh's Artworks Table Submission</h2>
 
       <div className="overflow-x-auto">
         <DataTable
