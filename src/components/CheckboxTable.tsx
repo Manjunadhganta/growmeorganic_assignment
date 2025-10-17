@@ -41,8 +41,11 @@ export default function ArtworksTable() {
       setCurrentPage(page)
 
      
-      const visibleSelected = data.data.filter(a => selectedIdsRef.current.has(a.id))
-      setSelectedArtworks(visibleSelected)
+     const visibleSelected = data.data.filter((a: Artwork) =>
+      selectedIdsRef.current.has(a.id)
+     )
+     setSelectedArtworks(visibleSelected)
+
     } catch (err) {
       console.error('Failed to load artworks:', err)
     } finally {
@@ -91,7 +94,7 @@ export default function ArtworksTable() {
           ? { data: artworks }
           : await fetchArtworks(page, rowsPerPage)
 
-      data.data.forEach(a => selectedIds.add(a.id))
+      data.data.forEach((a: Artwork) => selectedIds.add(a.id))
     }
 
     
