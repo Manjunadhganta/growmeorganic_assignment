@@ -4,7 +4,7 @@ A React + TypeScript project using Vite and PrimeReact to display artworks in a 
 
 ## Screenshot
 
-![Artworks Table](public/screenshots/image.png)
+![Artworks Table](public/image.png)
 
 
 ## Features
