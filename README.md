@@ -14,7 +14,7 @@ A React + TypeScript project using Vite and PrimeReact to display artworks in a 
 - Fetches first page data from the server initially
 - **Server-side pagination**: fetches data for the page when changed
 - **Multiple row selection** with checkboxes
-- **Custom selection panel** for selecting top N rows
+- **Custom selection panel** for selecting rows
 - Selection persists across page changes
 
 ## Setup
