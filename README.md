@@ -37,7 +37,7 @@ A React + TypeScript project using Vite and PrimeReact to display artworks in a 
 
 - Select rows individually using checkboxes
 - Click the chevron icon in the header to open the custom selection panel
-- Enter a number to select the top N rows across all pages
+- Enter a number to select the rows across all pages
 - Navigate between pages using the paginator; row selections persist
 
 ## Tech Stack
